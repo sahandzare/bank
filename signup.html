@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Banking</title>
+	<link rel="stylesheet" type="text/css" href="./signup.css">
+</head>
+<body>
+	<header>
+		<h1>BLUE WHALE</h1>
+		<nav>
+			<ul>
+				<li><a href="./bank.html">Home</a></li>
+				<li><a href="./about.html">About Us</a></li>
+				<li><a href="./contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="signup">
+			<h2>Sign Up</h2>
+			<form action="signup.php" method="post">
+				<label for="username">Username:</label>
+				<input type="text" name="username" required>
+				<label for="password">Password:</label>
+				<input type="password" name="password" required>
+				<label for="email">Email:</label>
+				<input type="email" name="email" required>
+				<input type="submit" value="Sign Up">
+			</form>
+		</section>
+		<section id="login">
+			<h2>Login</h2>
+			<form action="login.php" method="post">
+				<label for="username">Username:</label>
+				<input type="text" name="username" required>
+				<label for="password">Password:</label>
+				<input type="password" name="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 BLUE WHALE </p>
+	</footer>
+</body>
+</html>
